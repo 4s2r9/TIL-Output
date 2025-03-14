@@ -64,8 +64,25 @@ blur イベントを使うことによって、フォームの入力された内
     - 例）〇〇の対応方法
 - 読み手にあった粒度で説明できるようになる
   - 専門用語をどの程度使うか
-  - 用語の解説を入れるか  
-
+  - 用語の解説を入れるか
 読み手とテーマがぼんやりしている場合
 - 情報量が多くなってしまい逆に読みにくいドキュメントになってしまう
 - 情報が探しづらくなってしまう
+
+# 0314  
+## 要素の最後にcssを当てたい時  
+MDN：https://developer.mozilla.org/ja/docs/Web/CSS/:last-child  
+`last-child` を使用する  
+```
+.list-item:last-child {
+  color: red;
+}
+```
+
+## 要素の最後だけcssを当てたくない時
+`:not(:last-child)` を使用する  
+```
+.クラス名:not(:last-child) {
+  border-bottom: 1px solid #ccc; /* 線のスタイル */
+}
+```
