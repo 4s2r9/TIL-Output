@@ -86,3 +86,8 @@ MDN：https://developer.mozilla.org/ja/docs/Web/CSS/:last-child
   border-bottom: 1px solid #ccc; /* 線のスタイル */
 }
 ```
+
+## 似たようなcss
+`first-child`  
+`only-child` 親の中に1つしか子要素がない要素  
+`last-of-type` 最後の特定のタグ（型）の要素
